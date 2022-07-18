@@ -1,0 +1,49 @@
+<!--
+        Oasis Infobyte
+       Level 1 -Task 3
+              By
+        Rohit Paritkar
+-->
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse" style="background-color: black;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="color: white;  font-size: 25px;">Temperature Converter By Rohit Paritkar</a>
+            </div>
+        </div>
+    </nav>
+    <section class="header">
+        <video autoplay loop class="video-background" muted plays-inline>s
+        <source src="videos/Pexels%20Videos%201409899.mp4"  ype="video/mp4">
+        </video>
+        <div class="welcome-msg">
+        <h1>Temperature Converter</h1>
+            <form class="abc" onsubmit="main(); return false">
+        <div class="icon"><img src="" alt="" id="ic"></div>
+        <h3>Enter temperature either in celsius or fahrenheit to convert it</h3>
+        <br><br>
+        <input class="icon" type="number"  id="val" name="temp" style="width: 100px; color: black;">&nbsp;&nbsp;
+        <select class="icon" name="op" id="op" style="width: 200px; color: black;">
+            <option class="icon" value="fahrenheit" >celsius</option>
+            <option class="icon" value="celsius">fahrenheit</option>
+        </select>
+        <br><br>
+        <button class="icon" id="sub" name="temp" style="color: white;">Convert</button> 
+        <h1 id='result'></h1>
+    </form>
+        </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
