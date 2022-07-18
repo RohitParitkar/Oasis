@@ -1,0 +1,95 @@
+/*
+        Oasis Infobyte
+       Level 1 -Task 3
+              By
+        Rohit Paritkar
+*/
+*{
+    margin: 0;
+    padding: 0;
+            
+ }
+    section{
+    margin: 0;
+}
+.header{
+    background: rgba(0,0,0,0.4);
+    height: 100vh;
+}
+.video-background{
+    position: absolute;
+    right: 0;
+    border: 0;
+    max-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+@media (min-aspect-ratio:16/9)
+{
+    .video-background{
+        width: 100%;
+        height: auto;
+        }
+}
+@media (max-aspect-ratio:16/9)
+    {
+    .video-background{
+         width: auto;
+        height: 100%;
+        }
+    }
+.welcome-msg{
+            position: relative;
+            text-align: center;
+            font-family: monospace;
+            color: white;
+            top: 70px;
+            
+        }
+.welcome-msg h1{
+            font-size: 80px;
+            font-weight: 70;
+            letter-spacing: 5px;
+        }
+body{
+    background-image: url(images/Black.jpg);
+}
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-top: 0px;
+    min-width: 100%;
+    min-height: 100%;
+}
+.icon{
+    font-size: 30px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+h2{
+    font-size: 60px;
+}
+a{
+    color: black;
+}
+.abc{
+    text-align: center;
+
+    padding-top: 0px;
+    padding-top: 10px;
+    margin-left: 350px;
+    margin-right:350px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+}
+button{
+    background-color:black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
